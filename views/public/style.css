@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+.image-container {
+    height: 900px;
+    width: 700px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

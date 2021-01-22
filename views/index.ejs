@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Random cat pictures</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+        <img src="<%=imageSrc.url %>" alt="">
+        </div>
+
+        <form action="/get-cat" method="POST">
+            <button type="submit">Get A Cat</button>
+        </form>
+
+        <form action="/get-dog" method="POST">
+            <button type="submit">Get A Dog</button>
+        </form>
+    </div>
+    
+</body>
+</html>
