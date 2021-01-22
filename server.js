@@ -36,7 +36,7 @@ app.post('/get-dog', (req, res) => {
     axios.get(url)
     .then(response => {
         let randomImageUrl = {
-            url: response.data[0].url
+            url: response.data.message
         };
         
         res.render('index.ejs', {imageSrc: randomImageUrl})
